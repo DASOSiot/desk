@@ -15,12 +15,12 @@ bash ./steps/00.sh && # Defaults
 bash ./steps/01.sh && # Update & Upgrade
 bash ./steps/02.sh && # Display Options
 bash ./steps/03.sh && # Graphic Engine
-bash ./steps/04.sh && # Graphic Engine: Turbo (compiled)
+#bash ./steps/04.sh && # Graphic Engine: Turbo (compiled)
 bash ./steps/05.sh && # Display Manager
 #bash ./steps/06.sh && # Display Manager: Autologin
 bash ./steps/07.sh && # Network Devices
 bash ./steps/08.sh && # Common Tools
-bash ./steps/09.sh && # Bluetooth: Upgrade (compiled)
+#bash ./steps/09.sh && # Bluetooth: Upgrade (compiled)
 bash ./steps/10.sh && # Users & Groups
 bash ./steps/11.sh && #
 bash ./steps/20.sh &&
