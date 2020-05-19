@@ -1,10 +1,18 @@
 # --------------------------------------------------------------------
 # STEP 11. LXDE Desktop & Looks.
 echo ""
-echo " STEP 11: LXDE Desktop. "
+echo " STEP 11: LXDE CUSTOM Desktop. "
 # STEP 11: START.
-apt install -y --no-install-recommends lxde lxde-common # Desktop
-apt install -y florence alsa-utils openbox obconf alacarte # Looks & Tools
+apt install -y lxde-core lxde-common # Desktop: Core & Tools
+apt install -y openbox obconf # Desktop: Window Manager
+apt install -y alacarte # Desktop: Menu Manager
+apt install -y alsa-utils pavucontrol pulseaudio # Desktop: Audio Manager
+apt install -y xawtv tv-fonts # Desktop: TV Viewer
+apt install -y florence # Desktop: Virtual Keyboard
+apt install -y chromium-browser firefox-esr remmina # Desktop: Internet
+apt install -y baobab gparted gnome-disk-utility gsmartcontrol # Desktop: Storage
+apt install -y sysbench # System Tools
+
 # STEP 11: END.
 echo ""
 echo "STEP 11: done!"
