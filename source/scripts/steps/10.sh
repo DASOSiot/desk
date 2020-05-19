@@ -1,7 +1,7 @@
 # --------------------------------------------------------------------
 # STEP 10. Users, Groups & Permissions.
 echo ""
-echo " STEP 10: Users, Groups & Passwords"
+echo " STEP 10: Users, Groups & Permissions"
 # STEP 10: START.
 # CUSTOM user/group scripts.
 bash ./users/00.sh &&
