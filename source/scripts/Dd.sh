@@ -9,7 +9,7 @@ echo "DASOS Desktop Installer"
 # --------------------------------------------------------------------
 # STEPS: Configuration.
 #set -v # VERBOSE
-set -e # ERROR STOP
+#set -e # ERROR STOP
 #STEPS: START.
 bash ./steps/00.sh &&
 bash ./steps/01.sh &&
