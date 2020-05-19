@@ -37,7 +37,7 @@ echo " STEP 03.1: DASOSdesk... Installing Graphic Engine."
 sudo apt-get install -y --no-install-recommends xserver-xorg xinit xserver-xorg-video-fbdev x11-xserver-utils libgl1-mesa-dri libtxc-dxtn-s2tc
 sudo apt-get install -y policykit-1 hal-info
 echo "...done"
-# --------------------------------------------------------------------
+# DONE--------------------------------------------------------------------
 # STEP 03.2. Xorg Server Turbo.
 # SOURCE: https://github.com/ssvb/xf86-video-fbturbo/wiki/Installation
 echo ""
