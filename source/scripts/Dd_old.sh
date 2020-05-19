@@ -74,7 +74,7 @@ sudo pip install bluepy
 sudo apt-get install -y python3-pip libglib2.0-dev
 sudo pip3 install bluepy
 
-# --------------------------------------------------------------------
+# DONE 2/8--------------------------------------------------------------------
 # STEP 05.2 LXDE Desktop & Utilities
 echo ""
 echo " STEP 05.2: DASOS Desktop Packages"
