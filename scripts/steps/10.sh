@@ -8,11 +8,11 @@ bash ./scripts/users/00.sh &&
 bash ./scripts/users/01.sh &&
 # CUSTOM USER: Pirate (Hypriot)
 # Bluetooth GROUP
-usermod -aG bluetooth $1
+usermod -aG bluetooth pirate
 # PRINTER GROUP
-usermod -aG lp $1
+usermod -aG lp pirate
 # SCANNER GROUP#
-usermod -aG scanner $1
+usermod -aG scanner pirate
 # STEP 10: END.
 echo ""
 echo "STEP 10: done!"
