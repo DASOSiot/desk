@@ -29,6 +29,6 @@ bash ./scripts/steps/22.sh && # Pimoroni
 #
 bash ./scripts/steps/99.sh &&
 # STEPS: END.
-echo "... STEPS completed. Bye $1. Enjoy!"
+echo "... STEPS completed... Enjoy!"
 # --------------------------------------------------------------------
 # SCRIPT: END
