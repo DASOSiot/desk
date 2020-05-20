@@ -3,7 +3,7 @@
 echo ""
 echo " STEP 05: Display Manager."
 # STEP 05: START.
-sudo apt-get install -y lightdm accountsservice
+sudo apt-get install -y lightdm accountsservice seahorse
 # STEP 05: END.
 echo ""
 echo "STEP 05: done!"
