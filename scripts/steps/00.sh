@@ -11,9 +11,7 @@ mkswap /swapfile
 swapon /swapfile
 echo "/swapfile swap swap defaults 0 0" >> /etc/fstab
 # OPT Structure
-mkdir /opt/vendor
-mkdir /opt/vendor/dasos
-cd /opt/vendor/dasos
+#
 # STEP 00: END.
 echo ""
 echo "STEP 00: done!"
