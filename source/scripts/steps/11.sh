@@ -6,6 +6,7 @@ echo " STEP 11: LXDE CUSTOM Desktop. "
 apt install -y lxde-core lxde-common # Desktop: Core & Tools
 apt install -y openbox obconf # Desktop: Window Manager
 apt install -y alacarte # Desktop: Menu Manager
+apt install -y network-manager network-manager-gnome network-manager-openvpn-gnome # Desktop: Network Manager
 apt install -y alsa-utils pavucontrol pulseaudio # Desktop: Audio Manager
 apt install -y xawtv tv-fonts # Desktop: TV Viewer
 apt install -y florence # Desktop: Virtual Keyboard
