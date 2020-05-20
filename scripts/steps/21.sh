@@ -3,7 +3,7 @@
 echo ""
 echo " STEP 21: External. Adafruit. "
 # STEP 21: START.
-sudo mkdir /opt/vendor/adafruit
+mkdir /opt/vendor/adafruit
 cd /opt/vendor/adafruit
 git clone https://github.com/adafruit/adafruit-pi-cam.git
 git clone https://github.com/adafruit/Adafruit_Python_BMP.git
