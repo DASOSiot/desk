@@ -23,6 +23,7 @@ bash ./scripts/steps/08.sh && # Common Tools
 bash ./scripts/steps/09.sh && # Bluetooth: Upgrade (compiled)
 bash ./scripts/steps/10.sh && # Users & Groups
 bash ./scripts/steps/11.sh && # XX
+bash ./scripts/steps/12.sh && # YY
 bash ./scripts/steps/20.sh && # Speedtest
 bash ./scripts/steps/21.sh && # Adafruit
 bash ./scripts/steps/22.sh && # Pimoroni
