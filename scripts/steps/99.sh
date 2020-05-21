@@ -10,5 +10,5 @@ echo "STEP 99: done!"
 echo ""
 echo "... DASOS Desk is now complete. The system will reboot now..."
 sleep 5s
-reboot
+#reboot
 # --------------------------------------------------------------------
