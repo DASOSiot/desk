@@ -11,7 +11,7 @@ echo "DASOS Desktop Installer"
 #set -v # VERBOSE OPERATIONS
 set -e # STOP IF ERROR
 #STEPS: START.
-bash ./scripts/steps/00.sh && # Defaults
+#bash ./scripts/steps/00.sh && # Defaults
 bash ./scripts/steps/01.sh && # Update & Upgrade
 bash ./scripts/steps/02.sh && # Display Options
 bash ./scripts/steps/03.sh && # Graphic Engine
