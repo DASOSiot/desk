@@ -11,7 +11,12 @@ mkswap /swapfile
 swapon /swapfile
 echo "/swapfile swap swap defaults 0 0" >> /etc/fstab
 # OPT Structure
-#
+rm -rf /opt/vendor # Needed for Re-Install
+mkdir /opt/vendor
+rm -rf /opt/vendor/github # Needed for Re-Install
+mkdir /opt/vendor/github
+rm -rf /opt/vendor/github/dasosiot # Needed for Re-Install
+mkdir /opt/vendor/github/dasosiot
 # STEP 00: END.
 echo ""
 echo "STEP 00: done!"

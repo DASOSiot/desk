@@ -5,13 +5,14 @@ echo ""
 echo " STEP 09: Bluetooth Ecosystem."
 # STEP 09: START.
 # Download & Make
-mkdir /opt/vendor/bluez
-cd /opt/vendor/bluez
+mkdir /opt/vendor/kernel
+mkdir /opt/vendor/kernel/bluez
+cd /opt/vendor/kernel/bluez
 wget http://www.kernel.org/pub/linux/bluetooth/bluez-5.50.tar.xz
 tar xvf bluez-5.50.tar.xz
 cd bluez-5.50
 # Dependencies
-apt install -y libusb-dev libdbus-1-dev libglib2.0-dev libudev-dev libical-dev libreadline-dev
+apt install -y libusb-dev libdbus-1-dev libglib2.0-dev libudev-dev libical-dev libreadline-dev &&
 # Make
 ./configure
 make
@@ -21,11 +22,11 @@ make install
 sed -i -e 's;ExecStart=/usr/lib/bluetooth/bluetoothd;ExecStart=/usr/local/libexec/bluetooth/bluetoothd --experimental;' /lib/systemd/system/bluetooth.service
 
 # Bluetooth Ecosystem
-apt install -y bluetooth
-apt install -y bluez-tools bluez-cups bluez-obexd blueman pulseaudio-module-bluetooth
+apt install -y bluetooth &&
+apt install -y bluez-tools bluez-cups bluez-obexd blueman pulseaudio-module-bluetooth &&
 
 # This firmware is required for operation of bluetooth dongles based on the Broadcom BCM203x chipset.
-apt install -y bluez-firmware
+apt install -y bluez-firmware &&
 # Add package with the firmware that matches your bluetooth device. EXAMPLE:
 #apt install -y firmware-atheros
 

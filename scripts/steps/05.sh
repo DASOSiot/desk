@@ -3,7 +3,7 @@
 echo ""
 echo " STEP 05: Display Manager."
 # STEP 05: START.
-sudo apt-get install -y --no-install-recommends lightdm accountsservice
+apt install -y --no-install-recommends lightdm accountsservice
 # STEP 05: END.
 echo ""
 echo "STEP 05: done!"

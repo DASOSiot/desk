@@ -3,8 +3,8 @@
 echo ""
 echo " STEP 21: External. Adafruit. "
 # STEP 21: START.
-mkdir /opt/vendor/adafruit
-cd /opt/vendor/adafruit
+mkdir /opt/vendor/github/adafruit
+cd /opt/vendor/github/adafruit
 git clone https://github.com/adafruit/adafruit-pi-cam.git
 git clone https://github.com/adafruit/Adafruit_Python_BMP.git
 git clone https://github.com/adafruit/Adafruit_Python_DHT.git

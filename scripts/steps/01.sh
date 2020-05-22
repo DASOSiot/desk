@@ -4,8 +4,8 @@
 echo ""
 echo "STEP 01: Update & Upgrade"
 # STEP: 01. START.
-apt -y update
-apt -y upgrade
+apt -y update &&
+apt -y upgrade &&
 # STEP 01: END.
 echo ""
 echo "STEP 01: done!"
