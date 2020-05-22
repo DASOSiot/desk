@@ -26,9 +26,10 @@ mkdir /opt/vendor/github
 rm -rf /opt/vendor/github/dasosiot # Needed for Re-Install
 mkdir /opt/vendor/github/dasosiot
 cd /opt/vendor/github/dasosiot
+git clone https://github.com/DASOSiot/desk.git
+git clone https://github.com/DASOSiot/env.git
 git clone https://github.com/DASOSiot/sense.git
 git clone https://github.com/DASOSiot/time.git
-git clone https://github.com/DASOSiot/desk.git
 # STEP 00: END.
 echo ""
 echo "STEP 00: done!"
