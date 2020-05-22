@@ -12,6 +12,7 @@ swapon /swapfile
 echo "/swapfile swap swap defaults 0 0" >> /etc/fstab
 # HOME Structure
 sudo pirate
+rm -rf ~/.dasos # Needed for Re-Install
 mkdir ~/.dasos
 mkdir ~/.dasos/sense
 mkdir ~/.dasos/time
