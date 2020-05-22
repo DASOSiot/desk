@@ -1,7 +1,7 @@
 # --------------------------------------------------------------------
 # STEP 22. External Resources. Pimoroni.
 echo ""
-echo " STEP 22: External. Speedtest. "
+echo "STEP 22: External. Pimoroni. "
 # STEP 22: START.
 # PIMORONI EXAMPLES
 mkdir /opt/vendor/github/pimoroni

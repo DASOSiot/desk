@@ -1,7 +1,7 @@
 # --------------------------------------------------------------------
 # STEP 08. Common Tools.
 echo ""
-echo " STEP 08: DASOS Common Tools."
+echo "STEP 08: DASOS Common Tools."
 # STEP 08: START.
 apt install -y git htop zip unzip build-essential make openvpn screen streamer
 #Python3 Extras
