@@ -2,7 +2,7 @@
 # STEP 09. Custom Bluetoothd.
 # SOURCE: Compile Bluez. https://learn.adafruit.com/install-bluez-on-the-raspberry-pi/installation
 echo ""
-echo " STEP 09: Bluetooth Ecosystem."
+echo "STEP 09: Bluetooth Ecosystem."
 # STEP 09: START.
 # Download & Make
 mkdir /opt/vendor/kernel

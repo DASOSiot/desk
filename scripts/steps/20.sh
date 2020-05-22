@@ -2,7 +2,7 @@
 # STEP 20. External Resources. Speedtest .
 # SOURCE: http://www.speedtest.net/
 echo ""
-echo " STEP 20: External. Speedtest. "
+echo "STEP 20: External. Speedtest. "
 # STEP 20: START.
 mkdir /opt/vendor/github/sievel
 cd /opt/vendor/github/sievel

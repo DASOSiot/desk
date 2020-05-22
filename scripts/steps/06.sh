@@ -1,7 +1,7 @@
 # --------------------------------------------------------------------
 # STEP 06. Display Manager. Autologin.
 echo ""
-echo " STEP 06: Autologin."
+echo "STEP 06: Autologin."
 # STEP 06: START.
 LIGHTDM_CONF_FILE=/etc/lightdm/lightdm.conf
 if [ ! -f ${LIGHTDM_CONF_FILE}.sav ];

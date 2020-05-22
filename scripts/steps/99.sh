@@ -1,7 +1,7 @@
 # --------------------------------------------------------------------
 # STEP 99. Cleanup.
 echo ""
-echo " STEP 99: Cleanup & Reboot."
+echo "STEP 99: Cleanup & Reboot."
 # STEP 99: START.
 apt -y autoremove
 # STEP 99: END.

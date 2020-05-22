@@ -1,7 +1,7 @@
 # --------------------------------------------------------------------
 # STEP 11. LXDE Desktop & Looks.
 echo ""
-echo " STEP 11: LXDE CUSTOM Desktop. "
+echo "STEP 11: LXDE CUSTOM Desktop. "
 # STEP 11: START.
 apt install -y lxde-core lxde-common && # Desktop: Core & Tools
 apt install -y openbox obconf && # Desktop: Window Manager

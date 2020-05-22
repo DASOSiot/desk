@@ -1,7 +1,7 @@
 # --------------------------------------------------------------------
 # STEP 21. External Resources. Adafruit.
 echo ""
-echo " STEP 21: External. Adafruit. "
+echo "STEP 21: External. Adafruit. "
 # STEP 21: START.
 mkdir /opt/vendor/github/adafruit
 cd /opt/vendor/github/adafruit

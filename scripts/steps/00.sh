@@ -2,7 +2,7 @@
 # STEP 00: Enviromental Configuration.
 # --------------------------------------------------------------------
 echo ""
-echo "STEP 00: Defaults"
+echo "STEP 00: Enviroment for Raspberry Pi 3B/3B+"
 # STEP: 00. START.
 # Swap File
 fallocate -l 4G /swapfile
@@ -10,6 +10,13 @@ chmod 600 /swapfile
 mkswap /swapfile
 swapon /swapfile
 echo "/swapfile swap swap defaults 0 0" >> /etc/fstab
+# HOME Structure
+sudo pirate
+mkdir ~/.dasos
+mkdir ~/.dasos/sense
+mkdir ~/.dasos/time
+mkdir ~/.dasos/desk
+sudo su
 # OPT Structure
 rm -rf /opt/vendor # Needed for Re-Install
 mkdir /opt/vendor

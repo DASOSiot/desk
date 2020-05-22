@@ -2,7 +2,7 @@
 # STEP 04. Xorg Server Turbo.
 # SOURCE: https://github.com/ssvb/xf86-video-fbturbo/wiki/Installation
 echo ""
-echo " STEP 04: Compiling fbturbo."
+echo "STEP 04: Compiling fbturbo."
 # STEP 04: START.
 apt install -y git build-essential xorg-dev xutils-dev x11proto-dri2-dev &&
 apt install -y libltdl-dev libtool automake libdrm-dev &&
